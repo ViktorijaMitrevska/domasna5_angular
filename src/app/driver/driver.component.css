@@ -21,7 +21,6 @@ course-card {
     margin: 0 auto;
     margin-top: 15px;
     user-select: none;
-    font-size: 50px;
   }
   
   .course-card img {
@@ -30,10 +29,11 @@ course-card {
   }
   
   button {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 40px;
+    width: 150px;
     font-size: 20px;
-    background: #1a7ce7;
+    background: #5586b9;
     color: white;
     border-radius: 4px;
   }
@@ -59,6 +59,8 @@ course-card {
   
   .course-category {
     margin-top: 15px;
+    margin-bottom: 15px;
+
   }
   
   .category {
@@ -70,7 +72,6 @@ course-card {
     border-radius: 4px;
     padding: 2px 3px;
     display: inline;
-    
   }
   
   .demo {
@@ -86,6 +87,10 @@ course-card {
   .highlighted {
     box-shadow: 0 2px 16px 0 #de1e19, 0 3px 8px 0 rgba(226, 21, 19, 0.47), 0 6px 8px -1px #b41c18;
   }
-  .prv{
-    color:red;
-  }
+  
+.poz{
+  background: rgb(199, 220, 226);
+}
+.poz1{
+  background: lightcoral;
+}

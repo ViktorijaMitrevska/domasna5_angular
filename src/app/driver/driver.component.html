@@ -1,0 +1,21 @@
+<div  [ngClass]="klasi()">
+    <div class="course-title">
+       {{reden+'.'+vozac.name}} 
+    </div>
+    <ng-template #noImg>
+        <p> NEMA SLIKA</p>
+    </ng-template>
+    <img [src]="vozac.iconUrl" height="300" width="300" *ngIf="vozac.iconUrl; else noImg">
+    <div class="course-description">
+        {{vozac.team}}
+    </div>
+    <div class="course-category" [ngSwitch]="vozac.category" >
+        <div class="category" [ngStyle]="stil()" *ngSwitchCase="'BEGINER'">Beginer</div>
+        <div class="category"  [ngStyle]="stil()" *ngSwitchCase="'ADVANCED'">Advanced</div>
+        <div class="category" [ngStyle]="stil()" *ngSwitchDefault>No lisence</div>
+    </div>
+    <div class="poen" >
+        poeni: {{vozac.points}}
+    </div>
+<button (click)="klik()">Click me!</button>
+</div>
