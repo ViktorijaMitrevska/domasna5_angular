@@ -34,7 +34,7 @@ export class DriverComponent implements OnInit {
     console.log("me klikna");
     this.cuci.emit(this.vozac);
   }
-  stil(){
+  Stil(){
     if(this.vozac.category=="ADVANCED"){
       return {'background-color':'red','font-size':'20px','color':'black'}
     }

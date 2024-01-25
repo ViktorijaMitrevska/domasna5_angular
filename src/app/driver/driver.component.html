@@ -10,9 +10,9 @@
         {{vozac.team}}
     </div>
     <div class="course-category" [ngSwitch]="vozac.category" >
-        <div class="category" [ngStyle]="stil()" *ngSwitchCase="'BEGINER'">Beginer</div>
-        <div class="category"  [ngStyle]="stil()" *ngSwitchCase="'ADVANCED'">Advanced</div>
-        <div class="category" [ngStyle]="stil()" *ngSwitchDefault>No lisence</div>
+        <div class="category" [ngStyle]="Stil()" *ngSwitchCase="'BEGINER'">Beginer</div>
+        <div class="category"  [ngStyle]="Stil()" *ngSwitchCase="'ADVANCED'">Advanced</div>
+        <div class="category" [ngStyle]="Stil()" *ngSwitchDefault>No lisence</div>
     </div>
     <div class="poen" >
         poeni: {{vozac.points}}

@@ -14,9 +14,6 @@ import{Driver} from './module/klasa';
 })
 export class AppComponent {
   title = 'appoweb';
-  maks=DRIVERS[1];//ako nemav undifiend vo db-data ke pocnese od 0 
-  lewis=DRIVERS[2];
-  sergio=DRIVERS[3];
   vozaci=DRIVERS;
 
   appKlik(suzi:Driver){
